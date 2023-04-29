@@ -31,6 +31,7 @@
    :host 'astro
    '((style_element (raw_text) @injection.content))))
 
+;;;###autoload
 (define-derived-mode astro-ts-mode prog-mode "Astro"
   "Major mode for Astro, powered by tree-sitter."
   :group 'astro
